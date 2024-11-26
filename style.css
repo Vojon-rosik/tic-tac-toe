@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #54876fdb;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #9e1b16e0;
+    background-color: #e1e15ac8;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: hsla(171, 84%, 78%, 0.973);
+    color: hsl(115, 88%, 50%);
+    border-radius: 1rem;
+    border: 3px solid black;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: hsla(172, 62%, 75%, 0.998);
+    color: #21f00f;
+    border-radius: 1rem;
+    border: 3px solid black;
+  }
+  
+  #msg {
+    color: #16ea0f;
+    font-size:8vmin;
+  }
+  
+  .msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .h1{
+    color: #e77a21;
+    font-size: 10vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
